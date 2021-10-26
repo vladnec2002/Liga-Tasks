@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/Liga.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga AC task</title>
+</head>
+<body>
+    <div>
+        <img src="images/Blue.png" alt="Blue" class="center" onclick="changeImage()" id="Click" />
+    </div>
+    <script>
+        function changeImage() 
+        {
+            var image = document.getElementById('Click');
+            if (image.getAttribute('src')=='images/Blue.png')
+                image.src="images/Red.png";
+            else
+                image.src="images/Blue.png";
+        }
+     </script>
+</body>
+</html>
