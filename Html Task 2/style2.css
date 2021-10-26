@@ -1,0 +1,43 @@
+*{
+    margin: 0; padding: 0; border: 0; box-sizing: border-box;
+}
+#container{
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+}
+.left {
+    width:50vw;
+    background-color: blue;
+}
+
+.right {
+    width:50vw;
+    background-color: yellow;
+}
+
+.button {
+    background-color: #ffffff; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    top: 46%;
+    right: 46%
+}
+.buttons {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+.buttons:hover {
+    background-color: #555555;
+    color: white;
+}
